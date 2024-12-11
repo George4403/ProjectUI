@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Brew Product UI</title>
+</head>
+<body>
+  <header>
+    <div class="logo">LOGO</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Brew</a>
+      <a href="#">Admin</a>
+    </nav>
+  </header>
+  <main>
+    <section class="scheduled-brews">
+      <h2>Scheduled Brews</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Version</th>
+            <th>IBU</th>
+            <th>ABV</th>
+            <th>Ingredients</th>
+            <th>Inventory</th>
+            <th>Brew Now</th>
+            <th>Schedule Brew</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Citra-Mogu Magic Haze</td>
+            <td>7</td>
+            <td>60.3</td>
+            <td>5.7</td>
+            <td>Use more orange</td>
+            <td><button>Inventory</button></td>
+            <td><button>Brew</button></td>
+            <td>11/15/20</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+    <section class="search-recipes">
+      <h2>Add Recipe to Brew</h2>
+      <input type="text" placeholder="Search by name or style">
+      <button>Search</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Version</th>
+            <th>Style</th>
+            <th>IBU</th>
+            <th>ABV</th>
+            <th>Ingredients</th>
+            <th>Last Brewed</th>
+            <th>Inventory</th>
+            <th>Brew Now</th>
+            <th>Schedule Brew</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cry Baby Onion Sour</td>
+            <td>1</td>
+            <td>Mixed-Fermentation Sour</td>
+            <td>50</td>
+            <td>5.2</td>
+            <td>Onion, Citric</td>
+            <td>10/31/18</td>
+            <td><button>Inventory</button></td>
+            <td><button>Brew</button></td>
+            <td>---</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
